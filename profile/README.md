@@ -2,7 +2,7 @@
 This organisation provides the source code for the projects which together form a system for retrieving data from Moodle and can be used by any university that uses Moodle. 
 
 # About repositories
-Repositories include a web application that processes data from Moodle, such as grades, deadlines, attendance, courses, and personal data. When data changes, such as grades, it saves the change in MongoDB and sends a message to Kafka for further notification to users' smartphones, and A consumer who reads messages from Kafka and then sends notifications to smartphones using Firebase Cloud Messaging.
+Repositories include a web application that processes data from Moodle, such as grades, deadlines, attendance, courses, and personal data. When data changes, such as grades, it saves the change in MongoDB and sends a message to Kafka for further notification to users' smartphones, and a consumer who reads messages from Kafka and then sends notifications to smartphones using Firebase Cloud Messaging.
 
 ## Technologies
 - [Rust](https://www.rust-lang.org/ru)
